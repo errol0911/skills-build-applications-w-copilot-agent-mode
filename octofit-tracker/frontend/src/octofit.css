@@ -1,0 +1,105 @@
+:root {
+  font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  color: #20312b;
+  background: #f3f6f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f3f6f2;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #dce5df;
+}
+
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: #20312b;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+.brand-lockup img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.brand-lockup strong {
+  color: #247350;
+}
+
+.site-header .nav-link {
+  color: #496057;
+}
+
+.site-header .nav-link.active {
+  color: #fff;
+  background: #247350;
+}
+
+.welcome-band {
+  padding: clamp(1.5rem, 5vw, 3rem);
+  color: #fff;
+  background: #195a40;
+  border-radius: 6px;
+}
+
+.welcome-band h1 {
+  color: #fff;
+}
+
+.eyebrow,
+.metric-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  color: #a8dbbd;
+}
+
+.metric-panel {
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid #dce5df;
+  border-radius: 6px;
+}
+
+.metric-label {
+  margin-bottom: 0.75rem;
+  color: #61776b;
+}
+
+.metric-value {
+  margin-bottom: 0.5rem;
+  color: #20312b;
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+@media (max-width: 575.98px) {
+  .site-header .container-xl {
+    align-items: flex-start !important;
+  }
+
+  .site-header .nav {
+    width: 100%;
+  }
+}
